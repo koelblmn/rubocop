@@ -713,7 +713,8 @@ Naming/FileName:
 Naming/HeredocDelimiterNaming:
   Blacklist:
     - END
-    - !ruby/regexp '/EO[A-Z]{1}/'
+    - !ruby/regexp '/EO[A-R]{1}/'
+    - !ruby/regexp '/EO[T-Z]{1}/'
 
 Naming/HeredocDelimiterCase:
   EnforcedStyle: uppercase
